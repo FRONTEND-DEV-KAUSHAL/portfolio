@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Hard neo-brutalist shadow -->
+  <rect x="8" y="8" width="50" height="50" rx="8" fill="#0B0F19" />
+  <!-- Lime badge card -->
+  <rect x="4" y="4" width="50" height="50" rx="8" fill="#CEFD10" stroke="#0B0F19" stroke-width="4.5" />
+  <!-- KG Text -->
+  <text x="29" y="30.5" text-anchor="middle" dominant-baseline="central" font-family="'Syne', 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="25" letter-spacing="-0.5px" fill="#0B0F19">KG</text>
+</svg>

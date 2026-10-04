@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+@config "../tailwind.config.js";
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #0b0f19;
+  border: 2px solid #cefd10;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 22s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+:focus-visible {
+  outline: 3px solid #6d28d9;
+  outline-offset: 5px;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  z-index: 100;
+  padding: 12px 20px;
+  background: #cefd10;
+  border: 3px solid #0b0f19;
+  font-weight: 700;
+}
+.skip-link:focus {
+  top: 12px;
+}
+nav a[aria-current] {
+  background: #cefd10;
+  border-color: #0b0f19;
+  box-shadow: 2px 2px 0 #0b0f19;
+  color: #0b0f19;
+}
+#dice-feedback {
+  height: auto;
+  min-height: 1.5rem;
+}
+#dice-display[aria-disabled='true'] {
+  transform: rotate(45deg) scale(0.9);
+}
+button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+.link-dialog {
+  max-width: min(440px, calc(100% - 32px));
+  padding: 28px;
+  border: 3px solid #0b0f19;
+  border-radius: 8px;
+  background: #f5f8f2;
+  color: #0b0f19;
+  box-shadow: 8px 8px 0 #0b0f19;
+}
+.link-dialog::backdrop {
+  background: rgb(11 15 25 / 65%);
+}
