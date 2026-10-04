@@ -118,9 +118,12 @@ export default function Header() {
             </span>
           </div>
           <a
-            aria-label="Terminal Code Repository"
+            aria-label="GitHub Profile"
             className="p-1.5 sm:p-2 bg-pure-white border-[2px] border-stroke-obsidian rounded shadow-[2px_2px_0px_#0B0F19] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_#0B0F19] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none flex items-center justify-center transition-all duration-150"
-            href="#projects"
+            href="https://github.com/FRONTEND-DEV-KAUSHAL"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub Profile"
           >
             <span
               aria-hidden="true"

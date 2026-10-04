@@ -37,15 +37,17 @@ export default function Footer({ onUnavailable }) {
         <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           <a
             className="px-3 sm:px-4 py-1.5 bg-surface-lime text-stroke-obsidian border-[2px] border-stroke-obsidian rounded shadow-[2px_2px_0px_#0B0F19] font-label-badge text-xs font-bold hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_#0B0F19] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all"
-            href="#contact"
-            onClick={onUnavailable}
+            href="https://github.com/FRONTEND-DEV-KAUSHAL"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
           <a
             className="px-3 sm:px-4 py-1.5 bg-pure-white text-stroke-obsidian border-[2px] border-stroke-obsidian rounded shadow-[2px_2px_0px_#0B0F19] font-label-badge text-xs font-bold hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[4px_4px_0px_#0B0F19] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all"
-            href="#contact"
-            onClick={onUnavailable}
+            href="https://www.linkedin.com/in/kaushal-gohil-242362224/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>

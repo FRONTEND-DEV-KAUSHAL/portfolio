@@ -70,6 +70,24 @@ export default function Contact() {
               (+91) 8799303752
             </a>
           </div>
+          <div className="flex items-center gap-2 mt-2 pt-2 border-t-[2px] border-stroke-obsidian/30 flex-wrap">
+            <a
+              href="https://github.com/FRONTEND-DEV-KAUSHAL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-surface-lime text-stroke-obsidian border-[2px] border-stroke-obsidian px-3 py-1 rounded font-label-badge text-xs font-bold shadow-[2px_2px_0px_#0B0F19] hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_#0B0F19] transition-all"
+            >
+              GitHub ↗
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kaushal-gohil-242362224/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-pure-white text-stroke-obsidian border-[2px] border-stroke-obsidian px-3 py-1 rounded font-label-badge text-xs font-bold shadow-[2px_2px_0px_#0B0F19] hover:-translate-y-0.5 hover:shadow-[3px_3px_0px_#0B0F19] transition-all"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
         </div>
       </div>
 
